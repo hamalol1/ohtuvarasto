@@ -24,7 +24,7 @@ class TestVarasto(unittest.TestCase):
 
     def test_konstruktori_alkusaldo_suurempi_kuin_tilavuus(self):
         # Haara: alku_saldo > tilavuus
-        huono_varasto1 = Varasto(10.0, 15.0)
+        huono_varasto = Varasto(10.0, 15.0)
         self.assertAlmostEqual(huono_varasto.saldo, 10.0)
 
     def test_konstruktori_alkusaldo_mahtuu(self):
