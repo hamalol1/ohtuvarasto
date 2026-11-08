@@ -6,7 +6,7 @@ indent-string='    '
 max-nested-blocks=2
 
 [DESIGN]
-max-statements=20
+max-statements=50
 max-args=4
 
 [MESSAGE CONTROL]
